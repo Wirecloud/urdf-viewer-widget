@@ -25,7 +25,7 @@ var URDFViewer = (function (MP) {
             }
         }.bind(this));
 
-        MP.widget.prefs.registerCallback(function (newValues) {
+        MP.prefs.registerCallback(function (newValues) {
             this.connect();
         }.bind(this));
     };
