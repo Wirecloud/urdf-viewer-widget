@@ -62,7 +62,7 @@ var URDFViewer = (function (MP) {
             tfClient: this.tfClient,
             path: MP.prefs.get('static_resources_url'),
             rootObject: this.viewer.scene,
-            loader:  ROS3D.COLLADA_LOADER_2
+            loader: ROS3D.COLLADA_LOADER_2
         });
     };
 
